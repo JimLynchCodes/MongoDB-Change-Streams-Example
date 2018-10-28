@@ -1,0 +1,28 @@
+{
+  "name": "mongodb-change-streams-example",
+  "version": "0.0.1",
+  "description": "example of a mongo change stream wrapped in a ws websocket server",
+  "main": "change-stream-socket-server.js",
+  "scripts": {
+    "test": "node change-stream-socket-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JimTheMan/MongoDB-Change-Streams-Example.git"
+  },
+  "keywords": [
+    "changestream",
+    "mongodb",
+    "ws"
+  ],
+  "author": "Jim Lynch",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/JimTheMan/MongoDB-Change-Streams-Example/issues"
+  },
+  "homepage": "https://github.com/JimTheMan/MongoDB-Change-Streams-Example#readme",
+  "dependencies": {
+    "mongodb": "^3.1.8",
+    "ws": "^6.1.0"
+  }
+}
